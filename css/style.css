@@ -1,0 +1,207 @@
+/* ALL CODE FOR @SANTIAGOFONTANAA */
+.container__presentacion-img {
+    border-radius: 100%;
+    margin: auto; 
+    box-shadow: 2px 2px 0px 1px #D62F1E;
+    width: 300px;
+    transition: all 2s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}  
+.container__presentacion-img.show {
+    opacity: 1;
+    visibility: visible;
+}  
+.container__body-principal-images {
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+.container__presentacion-hi__animation:hover {
+    font-size: 60px;
+
+}
+.container__presentacion-hi__animation {
+    font-size: 50px;
+    transition: font-size .5s ease;
+}
+.container__list {
+    display: inline-flex;
+    list-style: none;
+}
+.container__presentation-p__frontend-backend a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .6s;
+}
+.container__presentation-p__frontend-backend a:hover, a:focus {
+    background-size: 100% 2px;
+}
+.container__list a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .6s;
+}
+.container__list a:hover, a:focus {
+    background-size: 100% 2px;
+}
+.container__list-li {
+    margin-left: 20px;
+}
+.container__body-principal-presentation {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container__body-principal {
+    font-family: 'Roboto', sans-serif;
+}
+#container__presentation-p {
+    font-size: 40px;
+}
+.container__body-principal-proyects {
+    background-color: #D62F1E;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.container__body-principal-abilities {
+    font-size: 90px; 
+    margin-left: 20px; 
+    color: #D62F1E;
+}
+.text-h2 {
+    font-size: 60px;
+}
+div.elem-group {
+    margin: 40px 0;
+}
+label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 500px;
+    padding: 8px;
+}
+textarea {
+    height: 250px;
+}
+button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    border: 2px solid black;
+}
+::-webkit-scrollbar {
+     width: 12px;    
+}
+::-webkit-scrollbar-track {
+ background: #F0F3F4;    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #D62F1E;   
+    border-radius: 10px;      
+    width: 10px;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #D62F13;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+.next {
+    right: 0;
+  
+}
+.prev:hover, .next:hover {
+    background-color: #5b160a;
+}
+.prev:hover{
+    border-radius: 0px 20px 0px 0px;
+}
+.next:hover{
+    border-radius: 20px 0px 0px 0px;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 23px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #D62F13;
+    border-radius: 20%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #5b160a;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@media screen and (max-width: 337px) {
+
+    .container__body-principal-abilities {
+        font-size: 73px; 
+        margin-left: 20px; 
+        color: #D62F1E;
+    }
+}
+/* ALL CODE FOR @SANTIAGOFONTANAA */
